@@ -1,8 +1,0 @@
-Constrained Instances: 'junta_motor_tubo_v3-1', 'junta_motor_tubo_v3-1', 'cover_1-1', 'cover_1-1'
-Constraint Name: Width2
-Error Details: Constraint is not supported. The constraint has been ignored.
----------------------------------------------------------------------------------
-Constrained Instances: 'cover_2-1', 'cover_2-1', 'opresor_sencilo_v3-1', 'opresor_sencilo_v3-1'
-Constraint Name: Width3
-Error Details: Constraint is not supported. The constraint has been ignored.
----------------------------------------------------------------------------------
