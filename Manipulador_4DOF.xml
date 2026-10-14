@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/13/26||22:40:58" using="Simscape Multibody Link Version 7.4" from="SolidWorks 34.1.1"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="" uid="" version="146">
+<AssemblyFile name="" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Brazo_L0-1" uid="Brazo_L0-1" grounded="true" entityUid="Brazo_L0*:*Predeterminado">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.99784201177583987 1.0537668628259849 1.1373417378802235</Translation>
+</Transform>
+</Instance>
+<Instance name="Brazo_L1-1" uid="Brazo_L1-1" entityUid="Brazo_L1*:*Predeterminado">
+<Transform>
+<Rotation>-5.3406026313193024e-15 -7.0410292524924408e-15 0.99999999999999989 0.99999999999999989 5.9396088144793433e-09 5.3406026731402616e-15 -5.9396088144793416e-09 1 7.0410292207713499e-15</Rotation>
+<Translation>1.0023420121708246 1.0537668628636045 1.2135417378803395</Translation>
+</Transform>
+</Instance>
+<Instance name="Brazo_L2-1" uid="Brazo_L2-1" entityUid="Brazo_L2*:*Predeterminado">
+<Transform>
+<Rotation>2.0679853111605704e-14 -3.458733129767024e-14 0.99999999999999967 0.99999999999999989 5.9396079443718719e-09 -2.0679852906170512e-14 -5.9396079998830231e-09 1 3.4587331420500452e-14</Rotation>
+<Translation>1.0364920119233638 1.4537668632179697 1.2135417358194107</Translation>
+</Transform>
+</Instance>
+<Instance name="Brazo_L3-1" uid="Brazo_L3-1" entityUid="Brazo_L3*:*Predeterminado">
+<Transform>
+<Rotation>0.043382989118917796 -0.057571170553158614 0.99739835400718757 0.67297814970281145 0.73954069473416351 0.013415321639501137 -0.73838900741931979 0.67064530204367345 0.070827625747738793</Rotation>
+<Translation>1.0173920121041351 1.2357668638034862 1.3085417374525667</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincidente1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Brazo_L0-1</Uid>
+</InstancePath>
+<Position>0.004653271811302262 -0.006507462145130205 -0.020449999961217546</Position>
+<Axis>2.2093301641546653e-15 5.9396078190230701e-09 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Brazo_L1-1</Uid>
+</InstancePath>
+<Position>6.4392935428259079e-15 -0.096649999999984804 -0.0045000000000097184</Position>
+<Axis>1.274968191589568e-15 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Brazo_L0-1</Uid>
+</InstancePath>
+<Position>3.9497582982050972e-10 -5.0465964740453728e-10 -0.015100000000000335</Position>
+<Axis>7.039640454273811e-15 -5.9396074724299696e-09 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Brazo_L1-1</Uid>
+</InstancePath>
+<Position>6.6613381477509392e-15 -0.022742727342281777 -0.0045000000000097184</Position>
+<Axis>1.3420492594964897e-15 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Brazo_L1-1</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 2.2204460492503131e-16 -0.0089999999999995639</Position>
+<Axis>-4.4935695605829598e-15 5.6792548259538228e-15 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Brazo_L2-1</Uid>
+</InstancePath>
+<Position>-0.400000000354366 0.0079999997187936156 -0.043149999752529866</Position>
+<Axis>-2.1704095039790399e-14 2.1909058652272903e-14 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Brazo_L1-1</Uid>
+</InstancePath>
+<Position>0 0 0.0040000000000002256</Position>
+<Axis>4.4912330143003755e-15 -5.6241458707717139e-15 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Brazo_L2-1</Uid>
+</InstancePath>
+<Position>-0.40000000035436556 -3.1491298457808625e-10 -0.034899999752530109</Position>
+<Axis>2.165484872253985e-14 -2.1886379108676155e-14 0.99999999999999967</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincidente3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Brazo_L2-1</Uid>
+</InstancePath>
+<Position>5.9952043329758453e-15 -2.2204460492503131e-15 -0.008999999999999897</Position>
+<Axis>7.7484021716775984e-16 -2.7091866518551436e-16 0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Brazo_L3-1</Uid>
+</InstancePath>
+<Position>0.2197181578067442 0.089322567643975281 0.005725269269800215</Position>
+<Axis>-0.04338298911887898 0.057571170553150267 -0.99739835400718979</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concéntrica3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Brazo_L2-1</Uid>
+</InstancePath>
+<Position>5.9952043329758453e-15 -2.2204460492503131e-15 0.0040000000000000036</Position>
+<Axis>-7.9643735903767062e-16 2.1821856568796174e-16 -0.99999999999999967</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Brazo_L3-1</Uid>
+</InstancePath>
+<Position>0.21765227099440809 0.096452135260375993 0.014498175163578209</Position>
+<Axis>0.043382989118879028 -0.057571170553150273 0.99739835400718979</Axis>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Brazo_L0" uid="Brazo_L0*:*Predeterminado" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Brazo_L0.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.46707201784058328</Mass>
+<CenterOfMass>1.3465965804206307e-07 8.0071563611165103e-05 -0.044357551478871944</CenterOfMass>
+<Inertia>0.00047688447930277028 0.00047580397622316986 0.0004965249999237312 1.1355381701130869e-06 1.9409138873225783e-09 -2.8746826595510845e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Brazo_L0_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Specular r="0.44705882352941173" g="0.44705882352941173" b="0.44705882352941173" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Brazo_L1" uid="Brazo_L1*:*Predeterminado" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Brazo_L1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.64676907308216425</Mass>
+<CenterOfMass>-3.0896310939195314e-05 -0.025266658112813874 -0.033931447500835342</CenterOfMass>
+<Inertia>0.0011065095092978119 0.00080124333350622067 0.0013459258957253366 4.8664635918171671e-05 -6.0924555941330911e-07 5.7998370730529422e-07</Inertia>
+</MassProperties>
+<GeometryFile name="Brazo_L1_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Specular r="0.44705882352941173" g="0.44705882352941173" b="0.44705882352941173" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Brazo_L2" uid="Brazo_L2*:*Predeterminado" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Brazo_L2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.67760919058760005</Mass>
+<CenterOfMass>-0.14399605781270147 -9.8162115410605861e-08 -0.034664769928278896</CenterOfMass>
+<Inertia>0.00040439213595811689 0.016646244485183443 0.016715555730419038 -1.1606323905122083e-09 0.00028569374869592335 1.0942383989798737e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Brazo_L2_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Specular r="0.44705882352941173" g="0.44705882352941173" b="0.44705882352941173" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Brazo_L3" uid="Brazo_L3*:*Predeterminado" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Brazo_L3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.51698513984933525</Mass>
+<CenterOfMass>0.14174777483045459 0.1454375035851786 -0.005287794342721505</CenterOfMass>
+<Inertia>0.00083774005480566891 0.00092993855432613388 0.0013581824591799531 8.3771718563670122e-06 -0.00012257023503653929 -0.00016915768501174594</Inertia>
+</MassProperties>
+<GeometryFile name="Brazo_L3_Predeterminado_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Diffuse r="0.89411764705882346" g="0.89411764705882346" b="0.89411764705882346" a="1"/>
+<Specular r="0.44705882352941173" g="0.44705882352941173" b="0.44705882352941173" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
